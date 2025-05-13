@@ -1768,7 +1768,7 @@ switch (day) {
 }
 
 System.out.println(numLetters);
-
+```
 It would be better if you could "return" the length of the day's name instead of storing it in the variable numLetters; you can do this with a switch expression. Furthermore, it would be better if you didn't need break statements to prevent fall through; they are laborious to write and easy to forget. You can do this with a new kind of case label. The following is a switch expression that uses the new kind of case label to print the number of letters of a day of the week:
 
 ```java
